@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterSystem.Infra", "WaterS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterSystem.Tests", "WaterSystem.Tests\WaterSystem.Tests.csproj", "{0ECA69FC-45D2-410B-96BC-5B4D203B21AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterSystem.Infra.IoC", "WaterSystem.Infra.IoC\WaterSystem.Infra.IoC.csproj", "{40B93F2C-E90D-4D7F-864D-757748B1B768}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{0ECA69FC-45D2-410B-96BC-5B4D203B21AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0ECA69FC-45D2-410B-96BC-5B4D203B21AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0ECA69FC-45D2-410B-96BC-5B4D203B21AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40B93F2C-E90D-4D7F-864D-757748B1B768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B93F2C-E90D-4D7F-864D-757748B1B768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B93F2C-E90D-4D7F-864D-757748B1B768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B93F2C-E90D-4D7F-864D-757748B1B768}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

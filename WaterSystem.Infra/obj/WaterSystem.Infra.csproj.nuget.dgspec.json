@@ -4,14 +4,14 @@
     "E:\\projects\\WaterSystem\\WaterSystem.Infra\\WaterSystem.Infra.csproj": {}
   },
   "projects": {
-    "E:\\projects\\WaterSystem\\WaterSystem.Infra\\WaterSystem.Infra.csproj": {
+    "E:\\projects\\WaterSystem\\WaterSystem.Domain\\WaterSystem.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\WaterSystem\\WaterSystem.Infra\\WaterSystem.Infra.csproj",
-        "projectName": "WaterSystem.Infra",
-        "projectPath": "E:\\projects\\WaterSystem\\WaterSystem.Infra\\WaterSystem.Infra.csproj",
+        "projectUniqueName": "E:\\projects\\WaterSystem\\WaterSystem.Domain\\WaterSystem.Domain.csproj",
+        "projectName": "WaterSystem.Domain",
+        "projectPath": "E:\\projects\\WaterSystem\\WaterSystem.Domain\\WaterSystem.Domain.csproj",
         "packagesPath": "C:\\Users\\Augusto Medeiros\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\WaterSystem\\WaterSystem.Infra\\obj\\",
+        "outputPath": "E:\\projects\\WaterSystem\\WaterSystem.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Augusto Medeiros\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,121 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\projects\\WaterSystem\\WaterSystem.Infra\\WaterSystem.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\projects\\WaterSystem\\WaterSystem.Infra\\WaterSystem.Infra.csproj",
+        "projectName": "WaterSystem.Infra",
+        "projectPath": "E:\\projects\\WaterSystem\\WaterSystem.Infra\\WaterSystem.Infra.csproj",
+        "packagesPath": "C:\\Users\\Augusto Medeiros\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\WaterSystem\\WaterSystem.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Augusto Medeiros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\projects\\WaterSystem\\WaterSystem.Domain\\WaterSystem.Domain.csproj": {
+                "projectPath": "E:\\projects\\WaterSystem\\WaterSystem.Domain\\WaterSystem.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
