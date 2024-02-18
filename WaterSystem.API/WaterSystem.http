@@ -1,0 +1,6 @@
+@WaterSystem_HostAddress = http://localhost:5228
+
+GET {{WaterSystem_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
